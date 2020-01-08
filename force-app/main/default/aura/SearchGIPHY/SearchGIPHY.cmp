@@ -1,5 +1,5 @@
-<aura:component 
-    implements="force:appHostable,flexipage:availableForAllPageTypes" 
+<aura:component
+    implements="force:appHostable,flexipage:availableForAllPageTypes"
     controller="ChatterHelper">
 
   <aura:attribute name="searchTerms" type="String" />
@@ -12,8 +12,8 @@
 
   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
-  <ltng:require scripts="{!join(',', 
-      $Resource.jquery331, 
+  <ltng:require scripts="{!join(',',
+      $Resource.jquery331,
       $Resource.GIPHY)}" afterScriptsLoaded="{!c.afterScriptsLoaded}" />
 
   <aura:if isTrue="{!v.showModal==true}">
@@ -78,7 +78,5 @@
 
     </lightning:layout>
   </lightning:card>
-
-
 
 </aura:component>
