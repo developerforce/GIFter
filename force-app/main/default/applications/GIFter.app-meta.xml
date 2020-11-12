@@ -5,6 +5,8 @@
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
     </brand>
     <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>GIFter: GIFs2Chatter</label>
     <navType>Standard</navType>
     <tabs>GIFter</tabs>
