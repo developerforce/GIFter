@@ -13,7 +13,7 @@
   <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
 
   <ltng:require scripts="{!join(',',
-      $Resource.jquery331,
+      $Resource.jquery360,
       $Resource.GIPHY)}" afterScriptsLoaded="{!c.afterScriptsLoaded}" />
 
   <aura:if isTrue="{!v.showModal==true}">
