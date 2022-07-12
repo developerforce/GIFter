@@ -4,6 +4,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>SearchGIPHY</componentName>
+                <identifier>SearchGIPHY</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>
